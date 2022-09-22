@@ -1,0 +1,35 @@
+.navbaar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-size: cover;
+  background-color: #3367d6;
+}
+.app-logo {
+  padding: 15px;
+  padding-left: 30px;
+}
+.search-image {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 15px;
+  margin-left: 250px;
+  background-color: #2850a7;
+}
+.input-class {
+  margin-bottom: 15px;
+  background-color: #2850a7;
+  outline: none;
+  height: 30px;
+  width: 300px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-left: 10px;
+}
+.lists-cont {
+  margin-left: 15%;
+  width: 70%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}

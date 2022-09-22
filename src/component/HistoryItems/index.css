@@ -1,0 +1,23 @@
+.items-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+}
+.list-content-cont {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-weight: 520;
+  color: #475569;
+  margin: 20px;
+}
