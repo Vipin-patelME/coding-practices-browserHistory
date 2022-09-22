@@ -13,7 +13,7 @@ class SearchHistory extends Component {
     const {initialHistoryList} = this.props
     const {userInput} = this.state
     const filteredList = initialHistoryList.filter(eachHistory =>
-      eachHistory.domainUrl.includes(userInput),
+      eachHistory.domainUrl.lower().includes(userInput),
     )
     return (
       <div>
